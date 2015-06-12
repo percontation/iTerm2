@@ -17,7 +17,7 @@ NSString * const kTmuxGatewayErrorDomain = @"kTmuxGatewayErrorDomain";;
 const int kTmuxGatewayCommandShouldTolerateErrors = (1 << 0);
 const int kTmuxGatewayCommandWantsData = (1 << 1);
 
-#define NEWLINE @"\r"
+#define NEWLINE @"\n"
 
 //#define TMUX_VERBOSE_LOGGING
 #ifdef TMUX_VERBOSE_LOGGING
